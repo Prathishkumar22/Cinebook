@@ -115,6 +115,10 @@ const TMDB_IMAGE_BASE = import.meta.env.VITE_TMDB_IMAGE_BASE;
   };
 
   return (
+    <>
+    <div className="back">
+      <a href="/"><button>Back</button></a>
+    </div>
     <div className="movie-db-container">
       <h1>🎬 Movies & Showtimes</h1>
       
@@ -265,6 +269,7 @@ const TMDB_IMAGE_BASE = import.meta.env.VITE_TMDB_IMAGE_BASE;
         </div>
       )}
     </div>
+    </>
   );
 };
 

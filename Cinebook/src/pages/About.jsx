@@ -23,7 +23,7 @@ const About = () => {
           
           <div className="founder-social">
             <p className="founder-info">
-              <strong>Founded by Prathish Kumar</strong>, CineBook is designed for movie lovers, by movie lovers.
+              <strong>Founded by Prathish Kumar</strong>,<strong>Logo Designed by Harishya</strong>, CineBook is designed for movie lovers, by movie lovers.
             </p>
             
             <div className="social-icons">

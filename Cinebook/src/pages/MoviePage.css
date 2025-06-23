@@ -330,4 +330,30 @@
 .movie-card:hover img, .trending-movie:hover img {
   transform: scale(1.03);
 }
+.back button{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 1px 1px 3px black;
+  color: white;
+  font-size: 1em;
+  background-color: rgb(250, 234, 89);
+  padding: 5px 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 0 #ff0000, 
+    2px 2px 0 #00ff00, 
+    3px 3px 0 #0000ff;
+    cursor: pointer;
+}
+.back button:hover{
+   transform: scale(1.03);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 1px 1px 3px black;
+  color: white;
+  font-size: 1em;
+  background-color: khaki;
+  padding: 5px 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #ff0000, 
+    2px 2px 5px #000000, 
+    3px 3px 5px #ffffff;
+}
 /* Rest of the CSS remains the same */

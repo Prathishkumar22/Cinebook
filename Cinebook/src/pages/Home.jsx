@@ -120,8 +120,8 @@ function Home() {
         <Link to="/about"><button>About</button></Link>
       </nav>
       <div className={styles.panel}>
-        <h1>Cinebook is for seeing the movie Details</h1>
-        <a href="/movie"><button>Get to Know about Cinema</button></a>
+        <h1>Cinebook helps you to find Movies</h1>
+        <a href="/movie"><button>Click to Search for the Movie</button></a>
       </div>
 
       {/* Auth Modal */}
