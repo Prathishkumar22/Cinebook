@@ -1,0 +1,31 @@
+{
+  "name": "theatre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend_new/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prathishkumar22/Cinebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Prathishkumar22/Cinebook/issues"
+  },
+  "homepage": "https://github.com/Prathishkumar22/Cinebook#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1",
+    "nodemon": "^3.1.10"
+  }
+}

@@ -345,3 +345,33 @@ body{
 /* *{
     background-color: black;
 } */
+/* Greeting section */
+.greeting {
+  margin-top: 20px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: rgb(250, 234, 89);
+  text-shadow:
+    1px 1px 0 #464646,
+    2px 2px 0 #464646,
+    3px 3px 0 #464646;
+  animation: fadeIn 1s ease-in-out;
+  text-align: center;
+}
+
+.greeting span {
+  color: #00ffcc; /* highlight username */
+  text-shadow: 1px 1px 3px black;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
