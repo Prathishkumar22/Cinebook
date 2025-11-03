@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node server.js"
+    "start":"node server.js",
+    "build":"npm install && npm install --prefix Cinebook && npm run build --prefix Cinebook",
     "dev": "nodemon backend_new/server.js"
   },
   "repository": {
