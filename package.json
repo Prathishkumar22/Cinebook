@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node backend_new/server.js",
     "build": "npm install && npm install --prefix Cinebook && npm run build --prefix Cinebook",
@@ -15,7 +16,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/Prathishkumar22/Cinebook/issues"
   },
